@@ -1,0 +1,5 @@
+# ninja log v5
+2421	2550	1647375134913660047	untitled1	17ae9037828617e4
+1	2143	1647375134506993360	CMakeFiles/untitled1.dir/main.cpp.o	88f0ccbb0952d542
+6	2157	1647375134523660027	CMakeFiles/untitled1.dir/Compl.cpp.o	471038597bb3c3ad
+9	2421	1647375134786993374	CMakeFiles/untitled1.dir/Complex_Number.cpp.o	69b3714d5f8682d1

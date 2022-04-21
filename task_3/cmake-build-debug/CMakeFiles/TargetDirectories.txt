@@ -1,0 +1,3 @@
+/home/sad/CLionProjects/3number/cmake-build-debug/CMakeFiles/3number.dir
+/home/sad/CLionProjects/3number/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/sad/CLionProjects/3number/cmake-build-debug/CMakeFiles/rebuild_cache.dir
