@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/sad/CLionProjects/untitled4/cmake-build-debug/
+cmake_ninja_workdir = /home/sad/oop/task_1/option_1/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target untitled4
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = /home/sad/CLionProjects/untitled4/cmake-build-debug/
 
 build cmake_object_order_depends_target_untitled4: phony || CMakeFiles/untitled4.dir
 
-build CMakeFiles/untitled4.dir/main.cpp.o: CXX_COMPILER__untitled4_Debug /home/sad/CLionProjects/untitled4/main.cpp || cmake_object_order_depends_target_untitled4
+build CMakeFiles/untitled4.dir/main.cpp.o: CXX_COMPILER__untitled4_Debug /home/sad/oop/task_1/option_1/main.cpp || cmake_object_order_depends_target_untitled4
   DEP_FILE = CMakeFiles/untitled4.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/untitled4.dir
@@ -57,7 +57,7 @@ build CMakeFiles/untitled4.dir/main.cpp.o: CXX_COMPILER__untitled4_Debug /home/s
   TARGET_COMPILE_PDB = CMakeFiles/untitled4.dir/
   TARGET_PDB = untitled4.pdb
 
-build CMakeFiles/untitled4.dir/ComplixMain.cpp.o: CXX_COMPILER__untitled4_Debug /home/sad/CLionProjects/untitled4/ComplixMain.cpp || cmake_object_order_depends_target_untitled4
+build CMakeFiles/untitled4.dir/ComplixMain.cpp.o: CXX_COMPILER__untitled4_Debug /home/sad/oop/task_1/option_1/ComplixMain.cpp || cmake_object_order_depends_target_untitled4
   DEP_FILE = CMakeFiles/untitled4.dir/ComplixMain.cpp.o.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/untitled4.dir
@@ -87,7 +87,7 @@ build untitled4: CXX_EXECUTABLE_LINKER__untitled4_Debug CMakeFiles/untitled4.dir
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/sad/CLionProjects/untitled4/cmake-build-debug && /var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/ccmake -S/home/sad/CLionProjects/untitled4 -B/home/sad/CLionProjects/untitled4/cmake-build-debug
+  COMMAND = cd /home/sad/oop/task_1/option_1/cmake-build-debug && /var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/ccmake -S/home/sad/oop/task_1/option_1 -B/home/sad/oop/task_1/option_1/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -99,7 +99,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/sad/CLionProjects/untitled4/cmake-build-debug && /var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/sad/CLionProjects/untitled4 -B/home/sad/CLionProjects/untitled4/cmake-build-debug
+  COMMAND = cd /home/sad/oop/task_1/option_1/cmake-build-debug && /var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/sad/oop/task_1/option_1 -B/home/sad/oop/task_1/option_1/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -115,7 +115,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/sad/CLionProjects/untitled4/cmake-build-debug
+# Folder: /home/sad/oop/task_1/option_1/cmake-build-debug
 
 build all: phony untitled4
 

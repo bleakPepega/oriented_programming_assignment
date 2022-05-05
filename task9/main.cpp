@@ -7,6 +7,8 @@ public:
     }
 
 };
+
+
 class Apartment: public Property {
 public:
     explicit Apartment(double worth);

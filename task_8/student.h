@@ -7,14 +7,15 @@
 #ifndef NUMBER8_STUDENT_H
 #define NUMBER8_STUDENT_H
 class student {
+    int age{};
+    std::string fio;
+    std::string code;
 public:
     student();
 
     student(int _age, std::string _fio, std::string _code);
 
-    int age{};
-    std::string fio;
-    std::string code;
+
 
 };
 

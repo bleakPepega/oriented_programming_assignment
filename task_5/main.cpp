@@ -4,7 +4,7 @@ void filled(int* ptr, int Of);
 void showed(int* ptr, int Of);
 void swapDataInCells(int* ptr, int Of);
 int main() {
-    int size = 12;
+    int size = 13;
     int* swap = new int[size];
     filled(swap, size);
     showed(swap, size);
@@ -29,11 +29,9 @@ for (int i = 0; i < Of; i++) {
 
 void swapDataInCells(int* ptr, int Of) {
     int buffer;
-    for (int i = 0; i < Of; i++) {
-        if (i % 2 == 0) {
+    for (int i = 1; i < Of; i+=2) {
             buffer = ptr[i];
-            ptr[i] = ptr[i + 1];
-            ptr[i + 1] = buffer;
-        }
+            ptr[i] = ptr[i - 1];
+            ptr[i - 1] = buffer;
     }
 }

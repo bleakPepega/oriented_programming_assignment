@@ -1,33 +1,21 @@
-//
-// Created by Matra on 14.02.2022.
-//
-
-#ifndef UNTITLED4_COMPLEX_H
-#define UNTITLED4_COMPLEX_H
+#ifndef UNTITLED_COMPLEX1_H
+#define UNTITLED_COMPLEX1_H
+#ifndef UNTITLED4_COMPLEX_C_H
+#define UNTITLED4_COMPLEX_C_H
 #include "complex"
-#include "iostream"
-#include "vector"
-class Complex {
-    double image;
-    double real;
-    double image_2;
-    double real_2;
+class Com {
+    double c_image;
+    double c_real;
 public:
-    void setValues(double a, double b, double c, double d) {
-        image = a;
-        real = b;
-        image_2 = c;
-        real_2 = d;
+    void setValues(const std::string& a, const std::string& b) {
+        c_image = atoi(a.c_str());
+        c_real = atoi(b.c_str());
     }
-    const std::vector<std::complex<double>> plus () const {
-        std::complex< double > one (real, image);
-        std::complex< double > two (real_2, image_2);
-        std::complex< double > answer = (one + two);
-        std::vector<std::complex<double>> arr;
-        arr.push_back(one);
-        arr.push_back(two);
-        return arr;
+    [[nodiscard]] double getting_back() const {
+        std::complex< double > z1( c_real, c_image );
+        return std::abs( z1 );
     }
 
 };
-#endif //UNTITLED4_COMPLEX_H
+#endif //UNTITLED4_COMPLEX_C_H
+#endif //UNTITLED_COMPLEX1_H

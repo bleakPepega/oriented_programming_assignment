@@ -1,23 +1,38 @@
-
+//
+// Created by sad on 01.03.2022.
+#include "iostream"
+#include "fstream"
 #include <string>
-#include <iostream>
-#include "complex"
+#include "vector"
 #include "Complex.h"
-void base () {
-    double real;
-    std::string image;
-    std::string first;
-    std::string operation;
-    double real_2;
-    std::string image_2;
-    std::string second;
-    double number_image, number_image_2;
-        std::cin >> real >> first >> image >> operation >> real_2 >> second >> image_2 ;
-        image.erase(image.find('i'), 1);
-        number_image = atoi(image.c_str());
-        number_image_2 = atoi(image_2.c_str());
-        Complex sign{};
-        sign.setValues(real, number_image, real_2, number_image_2);
-        if (operation == "+") {
-            std::cout << sign.plus()[1];
-    } }
+void base() {
+    std::string first_number;
+    std::string second_number;
+    std::string str;
+    std::vector <double> array = {};
+    std::ifstream file("/home/sad/CLionProjects/untitled/tests.txt");
+    Com alg{};
+    while(getline(file, str)) {
+        int i = 0;
+        while (i <= std::size(str)) {
+            if (str[i] != ' ') {
+                first_number += str[i];
+                i += 1;
+            } else
+                break;
+        }
+        i++;
+        while (i < std::size(str)) {
+            second_number += str[i];
+            second_number += str[i];
+            i += 1;
+        }
+        alg.setValues(first_number, second_number);
+        array.push_back(alg.getting_back());
+        first_number = "";
+        second_number = "";
+    }
+    std::cout << "Max: " << *std::max_element (array.begin(), array.end());
+}
+//
+

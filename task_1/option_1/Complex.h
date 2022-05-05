@@ -4,6 +4,8 @@
 #ifndef UNTITLED4_COMPLEX_H
 #define UNTITLED4_COMPLEX_H
 #include <iostream>
+#include <cmath>
+
 class complexNumber {
 public:
 
@@ -14,8 +16,8 @@ public:
         firstRealNumber = real;
     }
 
-    double abs() {
-        return firstRealNumber * firstRealNumber - firstImageNumber * firstImageNumber;
+    [[nodiscard]] double abs() const {
+        return pow(((firstRealNumber * firstRealNumber) + (firstImageNumber * firstImageNumber)), 0.5);
     }
 
     complexNumber operator+(const complexNumber &c) const  // перегрузка оператора сложения
@@ -47,7 +49,7 @@ public:
         complexNumber temp{};
         double r = c.firstRealNumber * c.firstRealNumber + c.firstImageNumber * c.firstImageNumber;
         temp.firstRealNumber = (firstRealNumber * c.firstRealNumber + firstImageNumber * c.firstImageNumber) / r;
-        temp.firstRealNumber = (firstImageNumber * c.firstRealNumber - firstRealNumber * c.firstImageNumber) / r;
+        temp.firstImageNumber = (firstImageNumber * c.firstRealNumber - firstRealNumber * c.firstImageNumber) / r;
         return temp;
     }
 

@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/sad/CLionProjects/number6/cmake-build-debug/
+cmake_ninja_workdir = /home/sad/oop/task_6/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target number6
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = /home/sad/CLionProjects/number6/cmake-build-debug/
 
 build cmake_object_order_depends_target_number6: phony || CMakeFiles/number6.dir
 
-build CMakeFiles/number6.dir/main.cpp.o: CXX_COMPILER__number6_Debug /home/sad/CLionProjects/number6/main.cpp || cmake_object_order_depends_target_number6
+build CMakeFiles/number6.dir/main.cpp.o: CXX_COMPILER__number6_Debug /home/sad/oop/task_6/main.cpp || cmake_object_order_depends_target_number6
   DEP_FILE = CMakeFiles/number6.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++23
   OBJECT_DIR = CMakeFiles/number6.dir
@@ -79,7 +79,7 @@ build number6: CXX_EXECUTABLE_LINKER__number6_Debug CMakeFiles/number6.dir/main.
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/sad/CLionProjects/number6/cmake-build-debug && /var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/ccmake -S/home/sad/CLionProjects/number6 -B/home/sad/CLionProjects/number6/cmake-build-debug
+  COMMAND = cd /home/sad/oop/task_6/cmake-build-debug && /var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/ccmake -S/home/sad/oop/task_6 -B/home/sad/oop/task_6/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -91,7 +91,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/sad/CLionProjects/number6/cmake-build-debug && /var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/sad/CLionProjects/number6 -B/home/sad/CLionProjects/number6/cmake-build-debug
+  COMMAND = cd /home/sad/oop/task_6/cmake-build-debug && /var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/sad/oop/task_6 -B/home/sad/oop/task_6/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -107,7 +107,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/sad/CLionProjects/number6/cmake-build-debug
+# Folder: /home/sad/oop/task_6/cmake-build-debug
 
 build all: phony number6
 
