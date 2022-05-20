@@ -8,10 +8,10 @@
 		},
 		"paths" : 
 		{
-			"cmake" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake",
-			"cpack" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cpack",
-			"ctest" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/ctest",
-			"root" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22"
+			"cmake" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/cmake",
+			"cpack" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/cpack",
+			"ctest" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/ctest",
+			"root" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/share/cmake-3.22"
 		},
 		"version" : 
 		{
@@ -26,7 +26,7 @@
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-300f225370257abbba23.json",
+			"jsonFile" : "codemodel-v2-4b467023f63564e3b24a.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
@@ -35,7 +35,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-729bf28f8a4bfe8ef90f.json",
+			"jsonFile" : "cache-v2-db1439a3b5489e904a48.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-b9bd6042893f45a2cc04.json",
+			"jsonFile" : "cmakeFiles-v1-7aa403bac037f1ae5857.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -66,7 +66,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-729bf28f8a4bfe8ef90f.json",
+			"jsonFile" : "cache-v2-db1439a3b5489e904a48.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -76,7 +76,7 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-b9bd6042893f45a2cc04.json",
+			"jsonFile" : "cmakeFiles-v1-7aa403bac037f1ae5857.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -86,7 +86,7 @@
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-300f225370257abbba23.json",
+			"jsonFile" : "codemodel-v2-4b467023f63564e3b24a.json",
 			"kind" : "codemodel",
 			"version" : 
 			{

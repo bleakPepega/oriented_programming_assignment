@@ -2,6 +2,42 @@
 	"entries" : 
 	[
 		{
+			"name" : "3number_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/sad/oop/task_3/cmake-build-debug"
+		},
+		{
+			"name" : "3number_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "3number_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/sad/oop/task_3"
+		},
+		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -55,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/sad/oop/task_6/cmake-build-debug"
+			"value" : "/home/sad/oop/task_3/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -103,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -115,7 +151,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cpack"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -127,7 +163,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/ctest"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -411,7 +447,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/ccmake"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/ccmake"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -591,7 +627,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/sad/oop/task_6"
+			"value" : "/home/sad/oop/task_3"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -643,7 +679,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/ninja/linux/ninja"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/ninja/linux/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -831,7 +867,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "number6"
+			"value" : "3number"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -875,7 +911,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/share/cmake-3.22"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1112,42 +1148,6 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
-		},
-		{
-			"name" : "number6_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/sad/oop/task_6/cmake-build-debug"
-		},
-		{
-			"name" : "number6_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "number6_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/sad/oop/task_6"
 		}
 	],
 	"kind" : "cache",

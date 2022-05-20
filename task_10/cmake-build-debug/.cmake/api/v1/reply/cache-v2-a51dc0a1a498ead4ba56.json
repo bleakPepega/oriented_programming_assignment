@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/sad/oop/task_8/cmake-build-debug"
+			"value" : "/home/sad/oop/task_10/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -103,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cpack"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/ctest"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -411,7 +411,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/ccmake"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/ccmake"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -591,7 +591,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/sad/oop/task_8"
+			"value" : "/home/sad/oop/task_10"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/ninja/linux/ninja"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/ninja/linux/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -831,7 +831,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "number8"
+			"value" : "number9"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/var/lib/snapd/snap/clion/189/bin/cmake/linux/share/cmake-3.22"
+			"value" : "/var/lib/snapd/snap/clion/190/bin/cmake/linux/share/cmake-3.22"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1114,7 +1114,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "number8_BINARY_DIR",
+			"name" : "number9_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1123,10 +1123,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/sad/oop/task_8/cmake-build-debug"
+			"value" : "/home/sad/oop/task_10/cmake-build-debug"
 		},
 		{
-			"name" : "number8_IS_TOP_LEVEL",
+			"name" : "number9_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1138,7 +1138,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "number8_SOURCE_DIR",
+			"name" : "number9_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1147,7 +1147,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/sad/oop/task_8"
+			"value" : "/home/sad/oop/task_10"
 		}
 	],
 	"kind" : "cache",

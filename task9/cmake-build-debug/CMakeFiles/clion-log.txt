@@ -1,4 +1,4 @@
-/var/lib/snapd/snap/clion/189/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/var/lib/snapd/snap/clion/189/bin/ninja/linux/ninja -G Ninja -S /home/sad/oop/task9 -B /home/sad/oop/task9/cmake-build-debug
+/var/lib/snapd/snap/clion/190/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/var/lib/snapd/snap/clion/190/bin/ninja/linux/ninja -G Ninja -S /home/sad/oop/task9 -B /home/sad/oop/task9/cmake-build-debug
 -- The C compiler identification is GNU 11.2.0
 -- The CXX compiler identification is GNU 11.2.0
 -- Detecting C compiler ABI info
